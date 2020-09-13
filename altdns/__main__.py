@@ -8,7 +8,7 @@ import time
 import datetime
 from threading import Lock
 # from queue import Queue as Queue
-from queue import Queue as Queue
+from multiprocessing import Queue
 
 import tldextract
 from tldextract.tldextract import LOG
