@@ -11,7 +11,7 @@ setuptools.setup(
     description="Generates permutations, alterations and mutations of subdomains and then resolves them.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/infosec-au/altdns",
+    url="https://github.com/ravkishu/altdns",
     packages=setuptools.find_packages(),
     entry_points={
         "console_scripts": [
