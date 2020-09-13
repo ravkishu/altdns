@@ -8,7 +8,7 @@ import time
 import datetime
 from threading import Lock
 # from queue import Queue as Queue
-from queue import Queue as queue
+from queue import Queue as Queue
 
 import tldextract
 from tldextract.tldextract import LOG
@@ -246,8 +246,7 @@ def get_line_count(filename):
 
 
 def main():
-    q = queue()
-#     q = Queue()
+    q = Queue()
 
     parser = argparse.ArgumentParser()
     parser.add_argument("-i", "--input",
